@@ -15,12 +15,22 @@
   <div class='main-nav'>
     <form>
     <div class="search-boxes prefix-radius">
-      <span class="prefix search-tip">Find</span>
-      <input type="text" placeholder="tacos, cheap dinner, Max's">
-      <span class="prefix search-tip">Near</span>
-      <input type="text" placeholder="México, D.F.">
+      <div class="first-search">
+        <span class="prefix search-tip">Find</span>
+        <div class="first-search-box">
+          <input type="search" placeholder="tacos, cheap dinner, Max's">
+        </div>
+      </div>
+      <div class="second-search">
+        <span class="prefix search-tip">Near</span>
+        <span class="second-search-box">
+          <input type="search" placeholder="México, D.F.">
+        </span>
+      </div>
     </div>
+    <span class="button-search-header">
     <a href="#" class="button radius">Search</a>
+    </span>
     </form>
 
     <nav>
@@ -42,10 +52,10 @@
 
 <div class="whole">
 <div class="main-container">
-  <div class="container">
+  <div class="left-container">
 
     <div class="welcome-message">
-      <h1>Yup! is the best way to find a coworking space</h1>
+      <h2 class="welcome-header">Yup! is the best way to find a coworking space</h2>
       <p>People use Yup! to search for a place to work when they are visiting a different city. Where would you like to work next?</p>
       <div class="button radius">Create Your Free Account</div>
     </div>

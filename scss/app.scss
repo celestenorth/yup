@@ -14,6 +14,19 @@
   height: 58px;
 }
 
+.first-search, .second-search {
+  padding-right: 10px;
+  display: flex;
+  border-radius: $global-radius;
+}
+
+.first-search-box, .second-search-box {
+  border-top-right-radius: $global-radius;
+  border-bottom-right-radius: $global-radius;
+  width: 230px;
+  background-color: #000;
+}
+
 .search-boxes{
   display: flex;
   flex-flow: row nowrap;
@@ -23,6 +36,18 @@
 
 .search-tip {
   max-width: 45px;
+  border-top-left-radius: $global-radius;
+  border-bottom-left-radius: $global-radius;
+}
+
+.main-nav {
+  padding: 10px;
+  width: 700px;
+}
+
+.button-serch-header {
+  displaay: flex;
+  flex-flow: row nowrap;
 }
 
 .menu-item {
@@ -33,6 +58,10 @@
   text-decoration: none;
   color: $primary-color;
   padding-left: 1em;
+}
+
+button {
+  height: 25px;
 }
 
 // Main Container starts here //
@@ -51,19 +80,25 @@
   flex-direction: row;
 }
 
-.container {
+.left-container {
   width: 620px;
   display: flex;
   flex-direction: column;
-
+  padding-top: 10px;
 }
 
-  .welcome-message{
+  .welcome-message {
     background: url(/img/welcome-photo.jpeg);
     border-radius: $global-radius;
     color: #fff;
     text-align: center;
     width: 600px;
+  }
+
+  .welcome-header {
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
   }
 
 .sidebar {
